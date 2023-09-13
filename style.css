@@ -87,3 +87,11 @@ footer {
     border: 5px solid;
 }
 
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding-top:  15px;
+    padding-right:  15px;
+    padding-bottom:  15px;
+}
+
