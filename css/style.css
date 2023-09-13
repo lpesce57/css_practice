@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     font-style: Arial;
-    font: #FFFFFF;
+    color: #FFFFFF;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -11,7 +11,7 @@ h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
-    font: #C4C4C4;
+    color: #FFFFFF;
 }
 
 h2 {
@@ -23,7 +23,7 @@ p {
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
-    font: #707070;
+    color: #FFFFFF;
 }
 
 img {
@@ -44,7 +44,7 @@ div {
 }
 
 .introduction {
-    border: 15px solid;
+    border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
@@ -64,6 +64,14 @@ border-top: 2px;
 border-right: 5px;
 }
 
+.blue p {
+    color:#C4C4C4;
+}
+
+.blue h2 {
+    color:#C4C4C4;
+}
+
 .yellow {
 background-color: #FFFF00;
 text-align: right;
@@ -72,8 +80,12 @@ border-bottom: 2px;
 border-left: 5px;
 }
 
+.yellow p {
+    color: #707070;
+}
+
 .green {
-    background-color: #00EB00; 
+    background-color: #008500; 
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
